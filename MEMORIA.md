@@ -159,6 +159,13 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 
 ### Anexo
 
+## Conf-Ip
+
+<p align="center">
+  <img src="imagenes/netplan.png"  width="600px">
+</p>
+
+
 
 
 
