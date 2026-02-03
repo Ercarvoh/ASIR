@@ -10,7 +10,8 @@
 - [Servicio de audio Icecast2](#Servicio-de-audio)
   - [Introducción al servicio](#Introducción-)
   - [Configuración Ip](#Configuración)
-  - [Instalación y configuración Mixxx](#Instalación-Mixxx)
+  - [Instalación Icecast2 Mixxx](#Instalación-Icecast2-Mixxx)
+  - [Configuración Mixxx](#Conf-Mixxx)
   - [Comprobación de la radio](#Radio)
 - [Servicio de streaming FFmpeg](#Servicio-de-video)
   - [Introducción al servicio](#Introducción)
@@ -28,12 +29,50 @@
 ## Servicio-de-audio
 
 ### Introducción-
+Icecast2 es un servidor de medios por flujo (streaming) de código abierto que permite la difusión de audio en tiempo real a través de Internet. Funciona como un punto de distribución central que recibe el contenido de un emisor y lo retransmite a múltiples oyentes de forma simultánea.
+Lo que vamos a realizar en esta practica es crear un radio online a la cual podran acceder los oyentes y podran escuchar la musica que nosotros pongamos esto sera en vivo.
 
 ### Configuración
+Lo primero que tendremos que realizar es configura nuestra maquina para que tenga una ip fija y asi podramos conectarnos a ella posteriormente yo lo he hecho mediante interfaz grafica como se muestra en esta [Imágen](#Conf-Ip)
 
-### Instalación-Mixxx
+### Instalación-Icecast2-Mixxx
+Una vez tengamos la ip fija configurada lo que tendremos que hacer sera instlar el icecast2 mediante el siguiente comando
+
+```
+apt-get install icecast2
+```
+Cuando lo ejecutemos nos aparecera una ventana emergente la cual sirve para realizar la configuración del icecast donde nos pondra el nombre del server que queremos y podremos cambiar la contraseña a las que nos ofrece por defecto, cuando terminemos de elegir todos los valores terminara la instalación
+
+Cuando ya tengamos todo lo que tiene que ver con icecast2 lo que tendremos que hacer sera instalar los repositorios de mixxx para asi poder hacer la instalación correctamente tambien deberemos asegurarnos del tipo de red que utilizamos. El repositorio se descargara mediante el siguiente comando [Imágen](#Repositorio)
+
+```
+add-apt-repository ppa:mixxx/mixxx
+```
+Cuando tengamos los repositorios lo que haremos sera introducir el siguiente comando el cual ya hace la instalacción del mixxx [Imágen](#Instalación-mixxx)
+
+
+```
+apt install mixxx
+```
+
+### Conf-Mixxx
+
+Una vez termine la instalación podremos ir al buscador de aplicaciones y ya nos aparecera que esta instalado como se muestra en esta [Imágen](#Mixxx-aplicacion)
+
+Cuando lo abramos lo que deberemos hacer es configurar la emisión en vivo para ello tenemos que ir a los ajustes que nos proporciona iremos a las preferencias y dentro de esta opcion iremos a emisión en vivo  en la cual pondremos la configuración que se muestra en esta [Imágen](#Configuración-Mixxx)
+en la cual podemos observar la ip el usuario entre otros apartados.
+
+Cuando tengamos todos los valores bien puesto tendremos que aplciar la configuración que acabamos de realizar y darle a aceptar cuando tengamos esto iremos a la pantalla del inicio y le daremos al boton que esta situado en el panel de arriba y se llama on air el cual cambiara de color a verde si funciona todo correctamente.
 
 ### Radio
+
+Para realizar la comprobación lo que tendremos que hacer sera ir a nuestro equipo y buscar en el navegador la siguiente url
+
+```
+http://192.168.18.250:8000/sergio
+```
+
+Cuando le demos click ya estaremos dentro de la transimisión en vivo ya que nos estamos conectado a la maquina con icecast atraves de la ip que tiene la maquina y el puerto que utiliza por default, cuando estemos dentro el problema que tiene es que habra un pequeño retraso para poder escuchar la canción que estemos poniendo, todo esto lo podedmos observar en las siguientes  [Imágen](#Comprobación1-mixxx)  [Imágen](#Comprobación2-mixxx)
 
 ## Servicio-de-video
 
