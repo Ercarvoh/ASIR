@@ -92,7 +92,7 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 #### Ejercicio 1: Cálculo de Almacenamiento
 **Enunciado:** Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?
 
-**Resolución:**
+**Solución:**
 * **Convertir GB a Megabits:** 500 GB × 1024 × 8 = **4.096.000 Mb**
 * **Calcular segundos totales:** 4.096.000 Mb / 2 Mbps = **2.048.000 segundos**
 * **Convertir a horas:** 2.048.000 / 3600 = **568,8 horas**
@@ -100,7 +100,7 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 #### Ejercicio 2: Cálculo de Red
 **Enunciado:** Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?
 
-**Resolución:**
+**Solución:**
 * **Ancho de banda disponible (80%):** 100 Mbps × 0,80 = **80 Mbps**
 * **Convertir Mbps a kbps:** 80 Mbps × 1000 = **80.000 kbps**
 * **Cálculo de usuarios:** 80.000 kbps / 400 kbps = **200 usuarios**
