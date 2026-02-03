@@ -16,8 +16,8 @@
   - [Cambio de contenedor de mp4 a mkv](#Contenedores)
   - [Cambio de codecs h264 y h265](#Codecs)
 - [Ejercicios](#Simulación-streaming)
-  - [Ejercicio1](#Ejercicio-1:-Cálculo-de-Almacenamiento)
-  - [Ejercicio2](#Ejercicio-2:-Cálculo-de-Red)
+  - [Ejercicio1](#Ejercicio1)
+  - [Ejercicio2](#Ejercicio2)
 - [Anexo (imagenes)](#Anexo)
 
 # Servicio de Audio y de Video
@@ -89,7 +89,7 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 - Resolución: 1080p
 - Bitrate: 2Mbps
 
-#### Ejercicio-1:-Cálculo-de-Almacenamiento
+#### Ejercicio1
 **Enunciado:** Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?
 
 **Solución:**
@@ -97,7 +97,7 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 * **Calcular segundos totales:** 4.096.000 Mb / 2 Mbps = **2.048.000 segundos**
 * **Convertir a horas:** 2.048.000 / 3600 = **568,8 horas**
 
-#### Ejercicio-2:-Cálculo-de-Red
+#### Ejercicio2
 **Enunciado:** Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?
 
 **Solución:**
