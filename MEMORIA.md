@@ -15,6 +15,7 @@
   - [Que metadatos tiene nuestro fichero ](#Metadatos)
   - [Cambio de contenedor de mp4 a mkv](#Contenedores)
   - [Cambio de codecs h264 y h265](#Codecs)
+- [Ejercicios](#Simulación-streaming)
 - [Anexo (imagenes)](#Anexo)
 
 # Servicio de Audio y de Video
@@ -72,5 +73,19 @@ ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy big-buck-bunny-h265-
 ```
 Ahora mostrare igual que con el h.264 que ha funcionado correctamente mediante la siguiente imagen [Imágen](#Imagen-h265)
 
-Cuando realizamos la comprobación del funcionamiento de ambos archivos que hemos creado nos podemos dar cuenta que en ambos funcionan muy parecido
+Cuando realizamos la comprobación del funcionamiento de ambos archivos que hemos creado nos podemos dar cuenta que en ambos funcionan muy parecido pero la diferencia no se encuentra en la imagen sino en el rendimiento ya que el h265 suele pesar menos pero hace un uso mayor de la CPU asi que es recomendable si quieres reducir el uso de espacio en la maquina o el ancho de banda
+
+Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos archivos uno con el h264 y el h265 ambos tienen el tamaño parecido [Imágen](#Imagen-cod-tamaño)
+
+
+### Simulación-streaming
+
+Low (móvil):
+Resolución 240p
+Bitrate: 400k
+2. High (fibra):
+Resolución: 1080p
+Bitrate: 2Mbps
+
+
 
