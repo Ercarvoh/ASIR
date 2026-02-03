@@ -105,6 +105,8 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 * **Convertir Mbps a kbps:** 80 Mbps × 1000 = **80.000 kbps**
 * **Cálculo de usuarios:** 80.000 kbps / 400 kbps = **200 usuarios**
 
+### Anexo
+
 
 
 
