@@ -16,6 +16,8 @@
   - [Cambio de contenedor de mp4 a mkv](#Contenedores)
   - [Cambio de codecs h264 y h265](#Codecs)
 - [Ejercicios](#Simulación-streaming)
+  - [Ejercicio1](#Ejercicio1)
+  - [Ejercicio2](#Ejercicio2)
 - [Anexo (imagenes)](#Anexo)
 
 # Servicio de Audio y de Video
@@ -86,6 +88,46 @@ Bitrate: 400k
 2. High (fibra):
 Resolución: 1080p
 Bitrate: 2Mbps
+
+#### Pregunta 1:
+
+
+**Almacenamiento: Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?**
+
+-Como primero tenemos que pasar de 2Mbps a MB/s, tenemos que dividirlo entre 8, por lo tanto se nos quedaría en 0,25MB/s
+
+**2Mbps / 8 = 0,25MB/s**
+
+-1 hora es equivalente a 3600 segundos entonces, tenemos que hacer 0,25 MB/s x 3600 segundos y nos daria 900MB, como hay dos veces segundos, se elimina la s y equivale a 0.9GB
+
+**0,25 MB/s × 3600 s = 900 MB, 900 MB ≈ 0,9 GB**
+
+-Entonces, como el disco tiene de capacidad 500GB y cada hora ocupa 0,9GB del disco, habrá que dividir 500GB entre 0,9GB y nos daría aproxiamdamente 555 horas
+
+**500 ÷ 0,9 ≈ 555 horas**
+
+-Se podrán alojar 555 horas de vídeo en el disco de 500GB
+
+
+#### Pregunta 2:
+
+
+**Red: Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?**
+
+-Como la línea tiene 100Mbps y para no saturarlo tenemos que usar el 80% de la línea, tenemos que multiplicar 100 x 0.8 que nos da 80 Mbps útiles
+
+**100 × 0,8 = 80 Mbps útiles**
+
+-Como cada usuario consume 400kbps, tenemos que pasarlo a Mbps porque la capacidad de línea también está en Mbps, por lo tanto, tenemos que hacer 400 kbps entre 1000 y nos da aproximadamente 0,4 Mbps por usuario
+
+**400 kbps ÷ 1000 ≈ 0,4 Mbps por usuario**
+
+-Ahora, como tenemos 80Mbps útiles y cada usuario consume 0,4 Mbps, tan solo tendremos que dividir 80 entre 0,4 y eso nos dará 200
+
+**80 ÷ 0,4 = 200 usuarios**
+
+-Entonces, 200 usuarios podrán ver el perfil móvil sin saturar la red
+
 
 
 
