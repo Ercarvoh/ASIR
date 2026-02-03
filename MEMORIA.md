@@ -198,7 +198,7 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 ## Comprobación2-mixxx
 
 <p align="center">
-  <img src="imagen/2comprobacion.png"  width="600px">
+  <img src="imagen/2comprobación.png"  width="600px">
 </p>
 
 ## Imagen-metadatos
