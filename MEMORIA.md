@@ -8,7 +8,10 @@
 
 # Índice
 - [Servicio de audio Icecast2](#Servicio-de-audio)
-  - [Introducción al servicio](#Introducción)
+  - [Introducción al servicio](#Introducción-)
+  - [Configuración Ip](#Configuración)
+  - [Instalación y configuración Mixxx](#Instalación-Mixxx)
+  - [Comprobación de la radio](#Radio)
 - [Servicio de streaming FFmpeg](#Servicio-de-video)
   - [Introducción al servicio](#Introducción)
   - [Instalación del servicio FFmpeg](#Instalación-FFmpeg)
@@ -21,6 +24,16 @@
 - [Anexo (imagenes)](#Anexo)
 
 # Servicio de Audio y de Video
+
+## Servicio-de-audio
+
+### Introducción-
+
+### Configuración
+
+### Instalación-Mixxx
+
+### Radio
 
 ## Servicio-de-video
 
