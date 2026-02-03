@@ -82,10 +82,10 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 
 ### Simulación-streaming
 
-- 1. Low (móvil):
+- 1 Low (móvil):
 - Resolución 240p
 - Bitrate: 400k
-- 2. High (fibra):
+- 2 High (fibra):
 - Resolución: 1080p
 - Bitrate: 2Mbps
 
