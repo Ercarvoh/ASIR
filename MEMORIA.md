@@ -1,6 +1,8 @@
 # Memoria de servicio de streaming y de audio
 
-![Audio y Video](imagen/foto-servicios.png)
+<p align="center">
+  <img src="imagen/foto-servicios.png" alt="Audio y Video">
+</p>
 
 Sergio Martínez Guillem 2ASIR
 
