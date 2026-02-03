@@ -1,7 +1,7 @@
 # Memoria de servicio de streaming y de audio
 
 <p align="center">
-  <img src="imagen/foto-servicios.png" alt="Audio y Video">
+  <img src="imagen/foto-servicios.png" alt="Audio y Video"><br>
   <b>Sergio Martínez Guillem 2ASIR</b>
 </p>
 
