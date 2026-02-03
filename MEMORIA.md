@@ -162,8 +162,82 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 ## Conf-Ip
 
 <p align="center">
-  <img src="imagenes/netplan.png"  width="600px">
+  <img src="imagen/1radio.png"  width="600px">
 </p>
+
+## Repositorio
+
+<p align="center">
+  <img src="imagen/3radio.png"  width="600px">
+</p>
+
+## Instalación-mixxx
+
+<p align="center">
+  <img src="imagen/4radio.png"  width="600px">
+</p>
+
+## Mixxx-aplicacion
+
+<p align="center">
+  <img src="imagen/5radio.png"  width="600px">
+</p>
+
+## Configuración-Mixxx
+
+<p align="center">
+  <img src="imagen/6radio.png"  width="600px">
+</p>
+
+## Comprobación1-mixxx
+
+<p align="center">
+  <img src="imagen/1comprobacion.png"  width="600px">
+</p>
+
+## Comprobación2-mixxx
+
+<p align="center">
+  <img src="imagen/2comprobacion.png"  width="600px">
+</p>
+
+## Imagen-metadatos
+
+<p align="center">
+  <img src="imagen/2video.png"  width="600px">
+</p>
+
+## Imagen-contenedor
+
+<p align="center">
+  <img src="imagen/3video.png"  width="600px">
+</p>
+
+## Imagen-con-tamaño
+
+<p align="center">
+  <img src="imagen/4video.png"  width="600px">
+</p>
+
+## Imagen-h264
+
+<p align="center">
+  <img src="imagen/5video.png"  width="600px">
+</p>
+
+## Imagen-h265
+
+<p align="center">
+  <img src="imagen/6video.png"  width="600px">
+</p>
+
+## Imagen-cod-tamaño
+
+<p align="center">
+  <img src="imagen/7video.png"  width="600px">
+</p>
+
+
 
 
 
