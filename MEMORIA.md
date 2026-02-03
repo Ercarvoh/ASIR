@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="imagen/foto-servicios.png" alt="Audio y Video">
+  <b>Sergio Martínez Guillem 2ASIR</b>
 </p>
 
-Sergio Martínez Guillem 2ASIR
 
 # Índice
 - [Servicio de audio Icecast2](#Servicio-de-audio)
