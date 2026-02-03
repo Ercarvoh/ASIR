@@ -82,51 +82,29 @@ Voy a adjuntar ahora una imagen para mostrar la diferencia de tamaño de los dos
 
 ### Simulación-streaming
 
-Low (móvil):
-Resolución 240p
-Bitrate: 400k
-2. High (fibra):
-Resolución: 1080p
-Bitrate: 2Mbps
+- 1. Low (móvil):
+- Resolución 240p
+- Bitrate: 400k
+- 2. High (fibra):
+- Resolución: 1080p
+- Bitrate: 2Mbps
 
-#### Pregunta 1:
+#### Ejercicio 1: Cálculo de Almacenamiento
+**Enunciado:** Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?
 
+**Resolución:**
+* **Convertir GB a Megabits:** 500 GB × 1024 × 8 = **4.096.000 Mb**
+* **Calcular segundos totales:** 4.096.000 Mb / 2 Mbps = **2.048.000 segundos**
+* **Convertir a horas:** 2.048.000 / 3600 = **568,8 horas**
 
-**Almacenamiento: Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?**
+#### Ejercicio 2: Cálculo de Red
+**Enunciado:** Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?
 
--Como primero tenemos que pasar de 2Mbps a MB/s, tenemos que dividirlo entre 8, por lo tanto se nos quedaría en 0,25MB/s
+**Resolución:**
+* **Ancho de banda disponible (80%):** 100 Mbps × 0,80 = **80 Mbps**
+* **Convertir Mbps a kbps:** 80 Mbps × 1000 = **80.000 kbps**
+* **Cálculo de usuarios:** 80.000 kbps / 400 kbps = **200 usuarios**
 
-**2Mbps / 8 = 0,25MB/s**
-
--1 hora es equivalente a 3600 segundos entonces, tenemos que hacer 0,25 MB/s x 3600 segundos y nos daria 900MB, como hay dos veces segundos, se elimina la s y equivale a 0.9GB
-
-**0,25 MB/s × 3600 s = 900 MB, 900 MB ≈ 0,9 GB**
-
--Entonces, como el disco tiene de capacidad 500GB y cada hora ocupa 0,9GB del disco, habrá que dividir 500GB entre 0,9GB y nos daría aproxiamdamente 555 horas
-
-**500 ÷ 0,9 ≈ 555 horas**
-
--Se podrán alojar 555 horas de vídeo en el disco de 500GB
-
-
-#### Pregunta 2:
-
-
-**Red: Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?**
-
--Como la línea tiene 100Mbps y para no saturarlo tenemos que usar el 80% de la línea, tenemos que multiplicar 100 x 0.8 que nos da 80 Mbps útiles
-
-**100 × 0,8 = 80 Mbps útiles**
-
--Como cada usuario consume 400kbps, tenemos que pasarlo a Mbps porque la capacidad de línea también está en Mbps, por lo tanto, tenemos que hacer 400 kbps entre 1000 y nos da aproximadamente 0,4 Mbps por usuario
-
-**400 kbps ÷ 1000 ≈ 0,4 Mbps por usuario**
-
--Ahora, como tenemos 80Mbps útiles y cada usuario consume 0,4 Mbps, tan solo tendremos que dividir 80 entre 0,4 y eso nos dará 200
-
-**80 ÷ 0,4 = 200 usuarios**
-
--Entonces, 200 usuarios podrán ver el perfil móvil sin saturar la red
 
 
 
